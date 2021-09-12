@@ -17,10 +17,10 @@ def solution(n, arr):
     # 수열 복구
     res = []
     p = len(lis) - 1
-    for i, j in enumerate(reversed(trace)):
+    for i, v in enumerate(reversed(trace)):
         if p < 0:
             break
-        if j == p:
+        if v == p:
             res.append(arr[n - 1 - i])
             p -= 1
 

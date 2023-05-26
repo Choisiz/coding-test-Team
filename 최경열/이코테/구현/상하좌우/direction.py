@@ -14,5 +14,4 @@ for i in data:
     if nx<1 or ny<1 or nx>n or ny>n:
         continue
     x,y=nx,ny
-
 print(x,y)
